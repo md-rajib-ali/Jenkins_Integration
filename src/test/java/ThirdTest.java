@@ -1,6 +1,9 @@
-//added by someone else and pushed from git to github
+import org.testng.annotations.Test;
 
-//modified
-//modified
-//modified
+public class ThirdTest {
 
+    @Test
+    public void thirdTest(){
+        System.out.println("Third Test Passed");
+    }
+}

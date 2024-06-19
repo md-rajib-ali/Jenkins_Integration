@@ -1,1 +1,9 @@
-//I am adding this test after pushing my code to remote repository (github)
+import org.testng.annotations.Test;
+
+public class FourthTest {
+
+    @Test
+    public void fourthTest(){
+        System.out.println("Fourth Test Passed");
+    }
+}
